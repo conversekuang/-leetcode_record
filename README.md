@@ -1,2 +1,2 @@
-# -leetcode_record
-All leetcode solutions is recorded in this repository.
+# leetcode_record
+All leetcode solutions are recorded in this repository.
