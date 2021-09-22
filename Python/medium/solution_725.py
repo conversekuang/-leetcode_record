@@ -5,8 +5,14 @@
 # version      : 3.7.2 
 
 
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 class Solution:
-    def splitListToParts(self, head: ListNode, k: int) -> List[ListNode]:
+    def splitListToParts(self, head: ListNode, k: int) -> [ListNode]:
         node = head
         count = 0
         while node:
