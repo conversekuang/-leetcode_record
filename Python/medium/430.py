@@ -38,8 +38,3 @@ class Solution:
         return head
 
 
-
-
-
-
-if __name__ == '__main__':
