@@ -31,9 +31,10 @@ class Solution:
 
             elif not cur.next and len(stack)!=0:
                 cur.next = stack.pop()
-                cur.next.prev = cur
-
-            cur = cur.next
+                if cur.next:
+                    cur.next.prev = cur
+            else:
+                cur = cur.next
 
         return head
 
