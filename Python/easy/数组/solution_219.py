@@ -17,4 +17,4 @@ class Solution:
         return False
 
 if __name__ == '__main__':
-    print(Solution().containsNearbyDuplicate(nums =[99,99],k =2))
+    print(Solution(object).containsNearbyDuplicate(nums =[99,99],k =2))
